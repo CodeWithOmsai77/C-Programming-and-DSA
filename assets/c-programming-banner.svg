@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">C Programming and Data Structures</title>
+  <desc id="desc">A dark navy and teal programming banner with a C symbol, terminal panel, and circuit-inspired details.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="52%" stop-color="#123047"/>
+      <stop offset="100%" stop-color="#087e8b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5eead4"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#d8f3ff" stroke-opacity=".08" stroke-width="1"/>
+    </pattern>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#020617" flood-opacity=".32"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="300" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="24" fill="url(#grid)"/>
+  <circle cx="1060" cy="24" r="190" fill="#67e8f9" opacity=".08"/>
+  <circle cx="1115" cy="290" r="205" fill="#5eead4" opacity=".09"/>
+  <path d="M740 0 V56 H820 V91 H900 V126 H1000" fill="none" stroke="#67e8f9" stroke-opacity=".32" stroke-width="2"/>
+  <path d="M785 300 V255 H860 V218 H930 V181 H1005" fill="none" stroke="#67e8f9" stroke-opacity=".28" stroke-width="2"/>
+  <g fill="#67e8f9" opacity=".7">
+    <circle cx="740" cy="56" r="4"/><circle cx="820" cy="91" r="4"/><circle cx="900" cy="126" r="4"/><circle cx="785" cy="255" r="4"/><circle cx="860" cy="218" r="4"/><circle cx="930" cy="181" r="4"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="850" y="67" width="282" height="166" rx="14" fill="#07111f" fill-opacity=".86" stroke="#7dd3fc" stroke-opacity=".5"/>
+    <path d="M850 101 H1132" stroke="#7dd3fc" stroke-opacity=".27"/>
+    <circle cx="871" cy="84" r="4" fill="#fb7185"/>
+    <circle cx="886" cy="84" r="4" fill="#fbbf24"/>
+    <circle cx="901" cy="84" r="4" fill="#34d399"/>
+    <text x="872" y="128" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#5eead4">#include &lt;stdio.h&gt;</text>
+    <text x="872" y="157" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#e2e8f0">int main(void) {</text>
+    <text x="889" y="184" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#bae6fd">printf("Hello C");</text>
+    <text x="872" y="211" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#e2e8f0">return 0; }</text>
+  </g>
+  <g>
+    <circle cx="112" cy="150" r="55" fill="#07111f" fill-opacity=".62" stroke="url(#accent)" stroke-width="3"/>
+    <text x="112" y="171" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="68" font-weight="700" fill="url(#accent)">C</text>
+  </g>
+  <text x="200" y="119" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" letter-spacing="4" fill="#a5f3fc">LEARN • CODE • BUILD</text>
+  <text x="196" y="169" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="800" fill="#ffffff">C PROGRAMMING</text>
+  <text x="196" y="214" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="800" fill="#5eead4">&amp; DATA STRUCTURES</text>
+  <rect x="199" y="238" width="420" height="4" rx="2" fill="url(#accent)"/>
+  <text x="200" y="269" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#dbeafe">Numbered lessons · Fundamentals to practical projects</text>
+</svg>
