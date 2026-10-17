@@ -1,0 +1,11 @@
+*.o
+*.out
+*.exe
+a.out
+core
+core.*
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo

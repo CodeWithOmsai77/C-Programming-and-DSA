@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main(void)
+{
+    int a;
+    int b;
+    int c;
+    int largest;
+
+    printf("Enter three integers: ");
+    if (scanf("%d %d %d", &a, &b, &c) != 3) return 1;
+
+    largest = a;
+    if (b > largest) largest = b;
+    if (c > largest) largest = c;
+
+    printf("Largest = %d\n", largest);
+    return 0;
+}
