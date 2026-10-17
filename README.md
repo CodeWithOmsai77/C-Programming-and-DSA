@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:111827,45:0F766E,100:22D3EE&height=190&section=header&text=C%20Programming%20%26%20DSA&fontSize=36&fontColor=FFFFFF&fontAlignY=38&desc=From%20Hello%20World%20to%20Practical%20Projects&descAlignY=62&descSize=16" width="100%" alt="C Programming and DSA" />
+<img src="./assets/c-programming-banner.svg" width="100%" alt="C Programming and Data Structures banner" />
 
 <p>
 <img src="https://img.shields.io/badge/Language-C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" alt="C language" />
