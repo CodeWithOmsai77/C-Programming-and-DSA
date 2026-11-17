@@ -103,3 +103,24 @@ This repository targets beginner-to-early-intermediate C and introductory data s
 ---
 
 <div align="center">**Learn the concept · Write it yourself · Compile · Test · Improve**</div>
+
+
+## Compile and Run
+
+Compile a C source file with GCC from the repository root:
+
+```bash
+gcc -std=c11 -Wall -Wextra -Wpedantic path/to/program.c -o program
+./program
+```
+
+Use the path of the specific source file you want to run. Treat compiler warnings as issues to understand and resolve, not as messages to ignore.
+
+## Practice and Validation Checklist
+
+- [ ] Predict the output before compiling.
+- [ ] Compile with warnings enabled.
+- [ ] Test normal, boundary and invalid inputs where applicable.
+- [ ] Check array bounds, pointer validity and allocation failures when relevant.
+- [ ] Explain the time and space complexity for searching/sorting or data-structure exercises.
+- [ ] Record mistakes and their fixes in the relevant topic notes.
